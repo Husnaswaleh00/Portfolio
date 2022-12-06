@@ -1,8 +1,13 @@
 ---
 layout: work
-title: "Work Entry two"
+title: "Stuff I did"
 order: 1
 preview: 1.jpg
+description: I did a bunch of stuff!!
+summary: This is the process I guess!
+gallery:
+- file: img1.jpg
+- title: Example 1
 ---
 
 ## Easier text markup

@@ -18,12 +18,12 @@
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'helvetica';
 	font-size: var(--font-size);
 	padding: var(--gutter);
 
-	display: flex;
-	flex-direction: column;
+	display: inside;
+	flex-direction: row;
 	gap: var(--gutter);
 }
 
@@ -39,5 +39,13 @@ h1 {
 }
 
 .grid img {
-	max-height: 70vh;
+	margin-top: 60px;
+	margin-bottom: 50px;
+	max-height: 75vh;
+}
+
+.gallery {
+	display:grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: var(--gutter);
 }

@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Work Entry Version two"
+title: "Stuff I definitely did"
 order: 0
 preview: 2.jpeg
 gallery:
